@@ -1,0 +1,202 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(224, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+
+.topnav{
+    flex-direction: row;
+    Display: flex;
+    align-content: space-around;
+    margin: 2%;
+    background-color: rgb(224, 0, 0);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(224, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+h1{
+    background-color: rgb(224, 0, 0);
+}
+
+u{
+    background-color: rgb(224, 0, 0);
+}
+
+a{
+    background-color: rgb(224, 0, 0);
+}
+
+h3{ margin: 10px;}
+
+#coureurs1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Team{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    background-color: rgb(224, 0, 0); 
+}
+
+.foto{
+    display: flex;
+    flex-direction: row;
+}
+
+.Driver{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+#redbull{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:rgb(0, 0, 97);
+    color: red;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#mercedes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#ferrari{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: red;
+    color: yellow;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#mclaren{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: orange;
+    color: black;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#Alpine{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(32, 148, 194);
+    color: white;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#haas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:white;
+    color: red;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+#sauber{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:darkred;
+    color: white;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#williams{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:blue;
+    color: lightblue;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#tauri{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(0, 0, 41);
+    color: white;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#aston{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(30, 72, 47);
+    color: white;
+    padding-top: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+

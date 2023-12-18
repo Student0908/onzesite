@@ -1,0 +1,74 @@
+/*Cas kijk in de html van circuits voor meer info. - Dit bericht mag verwijderd worden indien gelezen.*/
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+    background-color:rgb(224, 0, 0)
+}
+
+header{
+    background-color: rgb(224, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnav{
+    flex-direction: row;
+    Display: flex;
+    align-content: space-around;
+    margin: 2%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(224, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.CircuitsLogoBackground {
+    background-color: rgba(36,31,33);
+}
+
+#CircuitsLogo {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.CircuitsBackground {
+    background-color: rgba(36,31,33);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.CircuitsBackground img{
+    max-width: 15%;
+    min-width:5%;
+}
+    
+.CircuitsBackground img:hover{
+    opacity: 0.5;
+}

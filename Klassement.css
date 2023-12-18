@@ -1,0 +1,118 @@
+/*Ik ben hier even aan het experimenteren dus daarom ziet t dr een beetje apart uit. Ik maak het later nog af.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+header{
+    background-color: rgb(224, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav{
+    flex-direction: row;
+    Display: flex;
+    align-content: space-around;
+    margin: 2%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(224, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#Title {
+    margin-top: 10%;
+    font-size: 250%;
+    color: black;
+}
+
+.Driver {
+    font-family: "Bitter";
+    color: rgba(36,31,33,255);
+    background-color: white;
+    font-size: 200%;
+    min-width: 100%;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    transition: transform 0.3s ease-in;
+    z-index: 5;
+}
+
+.DriverBackground {
+    background-color: rgba(36,31,33,255);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.Land {
+    z-index: 2;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+}
+
+.Coureur {
+    z-index: 3;
+    position: absolute;
+    height: 100px;
+    width: 75px;
+    margin-left: 112.5px;
+    background-color: none;
+}
+
+.Car {
+    z-index: 2;
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    margin-left: 150px;
+    background-color: none;
+}
+
+.Pts {
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-left: 70%;
+    margin-top: 0%;
+}
+
+.Driver:hover {
+    transform: translateX(-100%);
+}

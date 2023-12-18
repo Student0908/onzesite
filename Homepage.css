@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(224, 0, 0);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav{
+    flex-direction: row;
+    Display: flex;
+    align-content: space-around;
+    margin: 2%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(224, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+#extramargin{
+    margin-top: 10%;
+}
+
+.Bbody {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 98vh;
+}
+
+section{        /*Youtube video gebruikt*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+}
+
+.een h1 {
+    font-family: "Oswald";
+    font-size: 250%;
+}
+
+.een   {
+    background-color: white;
+    color: red;
+    justify-content: center;
+    align-items: center; 
+}
+
+.twee   {
+    background-color: red;
+    color: white;
+    align-items: center;
+}
+
+.twee h1 {
+    font-family: "Oswald";
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+#NewsArtikelen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Artikel {
+    border-radius: 5%;
+    width: 200px;
+    height: 275px;
+    font-size: 50%;
+    background-color: white;
+    color: red;
+    border: 2px solid darkred;
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+
+.Artikel:hover {
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+
+.Artikel img {
+    width: 100%;
+    margin-bottom: 10%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    z-index: 1;
+}
+
+.Artikel h1 {
+    margin-bottom: 10%;
+}
+
+.drie {
+    background-color: white;
+    color: red;
+    align-items: center;
+}
+
+.drie h1 {
+    font-family: "Oswald";
+    font-size: 200%;
+}
+
+#Artikelknop {  /*beetje hulp van google*/
+    margin-top: 450%;
+    margin-left: -25%;
+    width: 150%;
+    height: 12.5%;
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition-duration: 0.4s;
+}
+
+#Artikelknop:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+}
